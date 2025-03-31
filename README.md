@@ -5,6 +5,7 @@ A comprehensive party planning system using the `smolagents` library with Huggin
 ## Features
 
 - Uses the Hugging Face Inference API
+- Available as a Hugging Face Space at [hyperxav/party-agent](https://huggingface.co/spaces/hyperxav/party-agent)
 - Comprehensive party planning tools:
   - Music recommendations with DuckDuckGo search
   - Menu suggestion system with Alfred the butler
@@ -47,6 +48,10 @@ Then edit the `.env` file and add your Hugging Face API token. You can get your 
 ```bash
 python party_planner.py
 ```
+
+## Using the Hugging Face Space
+
+You can access the party planner directly through the Hugging Face Space at [hyperxav/party-agent](https://huggingface.co/spaces/hyperxav/party-agent). This provides a web interface to interact with the agent without needing to set up the local environment.
 
 ## Examples
 
