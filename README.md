@@ -1,15 +1,26 @@
 # HFParty
 
-A simple demonstration of using the `smolagents` library with Hugging Face models to create an AI agent that can search and provide recommendations.
+A comprehensive party planning system using the `smolagents` library with Hugging Face models to create an AI agent that can handle various aspects of party planning at Wayne Manor.
 
 ## Features
 
 - Uses the Hugging Face Inference API
-- Implements DuckDuckGo search capability
-- Can provide party recommendations and answer questions
-- Menu suggestion system with Alfred the butler
-  - Supports different types of occasions (casual, formal, superhero)
-  - Custom menu recommendations
+- Comprehensive party planning tools:
+  - Music recommendations with DuckDuckGo search
+  - Menu suggestion system with Alfred the butler
+  - Superhero party theme generator
+  - Gotham City catering service finder
+  - Web page content analysis
+- Multiple party themes supported:
+  - Classic heroes
+  - Villain masquerade
+  - Futuristic Gotham
+  - Custom themes
+- Menu types for different occasions:
+  - Casual parties
+  - Formal events
+  - Superhero gatherings
+  - Custom menus
 
 ## Setup
 
@@ -32,27 +43,42 @@ cp .env.template .env
 ```
 Then edit the `.env` file and add your Hugging Face API token. You can get your token from [Hugging Face Settings](https://huggingface.co/settings/tokens).
 
-4. Run the agents
+4. Run the party planner
 
-For music recommendations:
+For the comprehensive party planner with all features:
 ```bash
-python test_agent.py
+python party_planner.py
 ```
 
-For menu suggestions with Alfred the butler:
+For specific features:
 ```bash
-python menu_agent.py
+python test_agent.py  # Music recommendations only
+python menu_agent.py  # Menu suggestions only
 ```
 
 ## Examples
 
+### Party Themes
+
+The party planner supports various superhero themes:
+- Classic Heroes: Justice League Gala with themed cocktails
+- Villain Masquerade: Gotham Rogues' Ball
+- Futuristic Gotham: Neo-Gotham Night with cyberpunk style
+
 ### Menu Suggestions
 
-The menu agent supports different types of occasions:
+Different menu types available:
 - Casual parties: Pizza, snacks, and drinks
 - Formal events: 3-course dinner with wine and dessert
 - Superhero parties: High-energy and healthy food buffet
 - Custom occasions: Personalized menu recommendations
+
+### Catering Services
+
+Integrated with Gotham City's top catering services:
+- Gotham Catering Co.
+- Wayne Manor Catering
+- Gotham City Events
 
 ## Requirements
 
