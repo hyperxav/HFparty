@@ -44,16 +44,8 @@ cp .env.template .env
 Then edit the `.env` file and add your Hugging Face API token. You can get your token from [Hugging Face Settings](https://huggingface.co/settings/tokens).
 
 4. Run the party planner
-
-For the comprehensive party planner with all features:
 ```bash
 python party_planner.py
-```
-
-For specific features:
-```bash
-python test_agent.py  # Music recommendations only
-python menu_agent.py  # Menu suggestions only
 ```
 
 ## Examples
