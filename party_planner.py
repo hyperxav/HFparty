@@ -87,15 +87,6 @@ def main():
     print("\nWelcome to Wayne Manor Party Planner!")
     print("-------------------------------------")
     
-    # Push agent to Hugging Face Hub
-    try:
-        print("\nPushing agent to Hugging Face Hub...")
-        agent.push_to_hub('hyperxav/party-agent')
-        print("Successfully pushed agent to hyperxav/party-agent!")
-    except Exception as e:
-        print(f"Error pushing to Hugging Face Hub: {str(e)}")
-        print("Continuing with local execution...\n")
-    
     # Example queries to demonstrate different tools
     queries = [
         "Give me the best playlist for a party at the Wayne's mansion. The party idea is a 'villain masquerade' theme",
