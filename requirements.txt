@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+smolagents
+huggingface_hub
+python-dotenv
+duckduckgo-search 
